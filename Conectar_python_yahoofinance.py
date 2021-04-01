@@ -22,6 +22,6 @@ import yfinance as yf
 yf.pdr_override() # <== that's all it takes :-)
 
 # download dataframe
-data = pdr.get_data_yahoo("^MXX", start="2020-03-30", end="2021-03-30")
+data = pdr.get_data_yahoo("^MXX", start="2017-03-30", end="2021-03-30")
 data.head()
-data.to_csv("C:/Users/Luis Vicente/Documents/Tesis/Semana 2/datos.csv")
+data.to_csv("C:/Users/Luis Vicente/Documents/Tesis/Proyecto Tesis/Prediccion-ML/datos_IPC.csv")
