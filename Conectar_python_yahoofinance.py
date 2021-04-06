@@ -24,4 +24,4 @@ yf.pdr_override() # <== that's all it takes :-)
 # download dataframe
 data = pdr.get_data_yahoo("^MXX", start="2017-03-30", end="2021-03-30")
 data.head()
-data.to_csv("C:/Users/Luis Vicente/Documents/Tesis/Proyecto Tesis/Prediccion-ML/datos_IPC.csv")
+data.to_csv("Dirección donde quieres guardaer los datos/datos_IPC.csv")
